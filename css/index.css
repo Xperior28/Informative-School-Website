@@ -5,15 +5,17 @@ html {
 body {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 header {
     height: 9vh;
     width: 100%;
-    background-color: #265828;
+    background-color: #87A922;
     padding-top: 0.5%;
     color: lightgray;
     position: fixed;
+    z-index: 1;
 }
 
 header > ul {
@@ -26,7 +28,7 @@ header > ul {
 }
 
 header >ul >li {
-    padding: 0.4%;
+    padding: 0.8%;
     transition: ease-out 0.1s;
     font-weight: 500;
 }
