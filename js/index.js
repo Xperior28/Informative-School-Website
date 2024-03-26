@@ -1,4 +1,5 @@
 const brochureBtn = document.querySelector('.ad-brochure-btn');
+const aboutBtn = document.querySelector('.about-page');
 
 brochureBtn.addEventListener('click', () => {
 
@@ -12,4 +13,8 @@ brochureBtn.addEventListener('click', () => {
     link.click();
     document.body.removeChild(link);
     
+});
+
+aboutBtn.addEventListener('click', () => {
+    window.location.href = './html/about.html';
 });
