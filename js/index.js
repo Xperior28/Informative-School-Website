@@ -4,6 +4,7 @@ const exploreBtn = document.querySelector('.explore-btn');
 const contactBtn = document.querySelector('.ad-contact-btn');
 const admissionBtn = document.querySelector('.ad-admission-btn');
 const newsBtn = document.querySelector('.news');
+const gallery = document.querySelector('.campus');
 
 const navadmnBtn = document.querySelector('.admn');
 const navcntctBtn = document.querySelector('.cntc');
@@ -48,4 +49,8 @@ navadmnBtn.addEventListener('click', () => {
 
 navcntctBtn.addEventListener('click', () => {
     window.location.href = './html/contact.html';
+});
+
+gallery.addEventListener('click', () => {
+    window.location.href = './html/gallery.html';
 });

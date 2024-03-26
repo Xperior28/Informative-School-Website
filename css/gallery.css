@@ -1,0 +1,141 @@
+html {
+    font-family: 'Rubik';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(106, 47, 47);
+    padding-top: 0.5%;
+    color: lightgray;
+    position: fixed;
+    z-index: 1;
+}
+
+header > ul {
+    
+    list-style-type: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header >ul >li {
+    padding: 0.8%;
+    transition: ease-out 0.1s;
+    font-weight: 500;
+}
+
+header > ul > li:hover {
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+    -webkit-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.school-logo {
+    padding: 0.2% !important;   
+    height: 7vh;
+    width: 4%;
+    margin-left: -6%;
+    margin-right: 2%;
+    background-image: url(../assets/images/school-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+body {
+        min-height: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: bisque;
+        background-image: radial-gradient(black 1px, transparent 0);
+        background-size: 45px 45px;
+        background-position: -25px -35px;
+        font-family: rubik;
+        text-align: center;
+    
+}
+.container {
+    width:90vw;
+    height: 250vh;
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CSS styles for home image */
+.home-image {
+    width: 120%; /* Adjust width as needed */
+    margin-left: -100px;
+    height: 600px; /* Adjust height as needed */
+    background-image: url('../assets/images/fiama.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px; /* Add margin-bottom for spacing */
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+
+.video-gallery,
+.image-gallery {
+    margin-bottom: 40px; 
+}
+
+.video-gallery h1,
+.image-gallery h1 {
+    margin-bottom: 20px;
+}
+
+.video-thumbnails,
+.image-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-thumbnail,
+.image-thumbnail {
+    margin: 10px; 
+}
+
+.video-thumbnail img,
+.image-thumbnail img {
+    width: 300px; 
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-thumbnail img:hover,
+.image-thumbnail img:hover {
+    transform: scale(1.1); 
+}
+
+
+footer {
+    height: 8vh;
+    background-color: #1167b1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightblue;
+    width: 100%;
+}
