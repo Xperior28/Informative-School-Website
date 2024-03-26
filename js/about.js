@@ -3,7 +3,7 @@ const contactBtn = document.querySelector('.ad-contact-btn');
 const admissionBtn = document.querySelector('.ad-admission-btn');
 
 home.addEventListener('click', () => {
-    window.location.href = '/';
+    window.location.href = '../index.html';
 })
 
 contactBtn.addEventListener('click', () => {

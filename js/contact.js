@@ -43,5 +43,5 @@ function validatePhone(phone) {
 }
 
 home.addEventListener('click', () => {
-    window.location.href = '/';
+    window.location.href = '../index.html';
 });
