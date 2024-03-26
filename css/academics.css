@@ -1,0 +1,174 @@
+
+html {
+    font-family: 'Rubik';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+header {
+    height: 9vh;
+    width: 100%;
+    background-color: #87A922;
+    padding-top: 0.5%;
+    color: lightgray;
+    position: fixed;
+    z-index: 1;
+}
+
+header > ul {
+    
+    list-style-type: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header >ul >li {
+    padding: 0.8%;
+    transition: ease-out 0.1s;
+    font-weight: 500;
+}
+
+header > ul > li:hover {
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+    -webkit-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.school-logo {
+    padding: 0.2% !important;   
+    height: 7vh;
+    width: 4%;
+    margin-left: -6%;
+    margin-right: 2%;
+    background-image: url(../assets/images/school-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+.container {
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.academics {
+    background-color: lightblue;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.academics > h1 {
+    margin-bottom: 20px;
+}
+
+.academics > h3 {
+    margin-bottom: 30px;
+}
+
+.school-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.school-image {
+    height: 200px; /* Adjust height as needed */
+    background-image: url(../assets/images/campus.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.school-card > p {
+    padding: 20px;
+}
+
+.explore {
+    background-color: #f5f5f5;
+    border-radius: 0 0 10px 10px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: #4d90fe;
+}
+
+.acad-summary {
+    margin: 40px;
+    margin-bottom: 20px;
+    background-color: #edf2fb; /* Blueish background color */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex; /* Ensure it's a flex container */
+    align-items: center; /* Align items vertically */
+}
+
+.acad-summary-text {
+    flex: 1;
+}
+
+.acad-summary-image {
+    width: 40%;
+    background-image: url(../assets/images/school.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px; /* Add margin-right to separate it from the text */
+}
+
+.icse-section {
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icse-section h2 {
+    margin-bottom: 20px;
+}
+
+.icse-section p {
+    margin-bottom: 10px;
+}
+
+.icse-groups {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.icse-group {
+    width: 22%;
+    background-color: lightblue;
+    padding: 20px;    
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icse-group h3 {
+    margin-bottom: 10px;
+}
+

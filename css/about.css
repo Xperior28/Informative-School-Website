@@ -57,6 +57,7 @@ header > ul > li:hover {
     height: 400vh;
     display: flex;
     flex-direction: column;
+    background-color: bisque;
 }
 
 .home-image {
@@ -180,20 +181,21 @@ header > ul > li:hover {
 
 /* ok */
 .academics {
-    background-color: lightblue;
+    
     height: 42%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e5e5f7;
+    
 
 }
 
 .academics > h1 {
     
     margin-bottom: 5%;
-    font-size: 36px;
+    font-size: 44px;
+    color: black;
 }
 
 .school-card {
@@ -206,6 +208,7 @@ header > ul > li:hover {
     flex-direction: column;
     justify-content: flex-start;
     padding: 4%;
+    border-radius: 10px;
 }
 
 .school-image {
