@@ -47,8 +47,8 @@ function validateForm() {
         return false;
     }
 
-    // Add more validation rules as needed
 
+    alert("Thanks for your reponse!")
     return true;
 }
 

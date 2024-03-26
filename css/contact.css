@@ -1,0 +1,178 @@
+html {
+    font-family: 'Rubik';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+header {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(88, 15, 15);
+    padding-top: 0.5%;
+    color: lightgray;
+    position: fixed;
+    z-index: 1;
+}
+
+header > ul {
+    
+    list-style-type: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header >ul >li {
+    padding: 0.8%;
+    transition: ease-out 0.1s;
+    font-weight: 500;
+}
+
+header > ul > li:hover {
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.school-logo {
+    padding: 0.2% !important;   
+    height: 7vh;
+    width: 4%;
+    margin-left: -6%;
+    margin-right: 2%;
+    background-image: url(../assets/images/school-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.container {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    background-color:floralwhite;
+}
+
+.home-image {
+    height: 60%;
+    background-image: url(../assets/images/contact.png);
+    background-size: cover;
+    background-position: 0 40%;
+    height: 60%;
+}
+
+.contact-form {
+    padding: 2%;
+    padding-left: 10%;
+    width: 35%;
+}
+
+.contact-form > h1 {
+    font-size: 46px;
+}
+.contact-form > p {
+    font-size: 18px;
+    margin-left: 1px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+#admissionForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="file"], textarea {
+    
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+input[type="submit"] {
+    background-color: rgb(118, 59, 59);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: rubik;
+    margin-bottom: 5%;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.section {
+    display: flex;
+}
+
+.contact-img-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img {
+    width: 90%;
+    height: 60%;
+    background-image: url('../assets/images/campus.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.links {
+    width: 300px;
+    height: 180px;
+    background-color: rgb(118, 59, 59);
+    margin-top: -90px;
+    margin-right: -250px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 50px;
+}
+
+.links > h3{
+    text-decoration: underline;
+    
+}
+
+.links > p {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+
+footer {
+    height: 8vh;
+    background-color: #1167b1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightblue;
+}
+
+.error {
+    color: red;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}

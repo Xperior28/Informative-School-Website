@@ -1,0 +1,235 @@
+html {
+    font-family: 'Rubik';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+header {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(88, 15, 15);
+    padding-top: 0.5%;
+    color: lightgray;
+    position: fixed;
+    z-index: 1;
+}
+
+header > ul {
+    
+    list-style-type: none;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header >ul >li {
+    padding: 0.8%;
+    transition: ease-out 0.1s;
+    font-weight: 500;
+}
+
+header > ul > li:hover {
+    border-radius: 10px;
+    transition: ease-in 0.1s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.school-logo {
+    padding: 0.2% !important;   
+    height: 7vh;
+    width: 4%;
+    margin-left: -6%;
+    margin-right: 2%;
+    background-image: url(../assets/images/school-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.container {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-image {
+    height: 60%;
+    background-image: url(../assets/images/news.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+}
+
+
+
+.academics {
+    background-color: lightblue;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5f7;
+    background: radial-gradient(circle at top left,transparent 25%,#bdbaf7 25.5%, #bdbaf7 36%, transparent 37%, transparent 100%),radial-gradient(circle at bottom right,transparent 34%,#bdbaf7 34.5%, #bdbaf7 45.5%, transparent 46%, transparent 100%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
+
+}
+
+.academics > h1 {
+    margin-top: 4%;
+    padding-bottom: 0;
+    font-size: 40px;
+}
+
+.academics > p {
+    margin-bottom: 4%;
+    font-weight: 500;
+
+}
+
+.academics > h3 {
+    padding: 1%;
+    border-radius: 20px;
+    background-color:cornflowerblue;
+    margin-bottom: 3%;
+    
+}
+
+.school-card {
+    height: 400px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 100px;
+    -webkit-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.school-image {
+    height: 40%;
+    background-image: url(../assets/images/robocomp.jpeg);
+    background-size: contain;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background-color: white;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    padding: 10%;
+}
+
+.date {
+    opacity: 0.7;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0;
+    padding-left: 13.5%;
+    height: 170%;
+}
+
+.acad-additional {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 5%;
+    row-gap: 0px;
+}
+
+.ad-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-right: salmon 2px solid;
+    font-weight: 600;
+    padding-left: 10%;
+    
+}
+
+.ad-part1 > p {
+    font-size: 24px;
+    
+}
+
+.ad-part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 26%;
+    width: 60%;
+    font-weight: 600;
+}
+
+.ad-contact-btn {
+    background-color: salmon;
+    width: 20%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 20px;
+}
+
+.ad-admission-btn {
+    background-color: salmon;
+    width: 25%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 20px;
+}
+
+.ad-brochure-btn {
+    background-color: salmon;
+    width: 29%;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 20px;
+}
+
+.ad-btn {
+    transition: ease-out 0.1s;
+}
+
+.ad-btn:hover {
+    transition: ease-in 0.1s;
+    -webkit-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 18px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+footer {
+    height: 8vh;
+    background-color: #1167b1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightblue;
+}
